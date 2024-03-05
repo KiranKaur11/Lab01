@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    background-image: url(678325.jpg);
+    background-color: #f0f8ff; /* Light background color */
+    text-align: center; /* Center the buttons */
+}
+
+.button-container {
+    display: flex; /* Align buttons in a row */
+    justify-content: center; /* Center buttons horizontally */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    padding: 20px 0; /* Padding around buttons */
+}
+
+button {
+    flex: 1 1 180px; /* Grow, Shrink, Basis */
+    margin: 10px; /* Space around buttons */
+    padding: 15px 20px; /* Padding inside buttons */
+    font-size: 18px; /* Font size */
+    color: rgb(185, 221, 119); /* Text color */
+    border: 2px solid transparent; /* Border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+button:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Shadow effect on hover */
+}
+
+/* Bright and playful button colors */
+#nounButton { background-color: #52e9dd; }
+#verbButton { background-color: #7b41d3; }
+#adjectiveButton { background-color: #983341; }
+#noun2Button { background-color: #38687c; }
+#placeButton { background-color: #0c3891; }
+#speakButton { background-color: #968f2e; }
+#randomStoryButton { background-color: #eb127e; }
+#resetButton { background-color: #1b713d; }
+
+#sentence {
+    margin: 20px;
+    font-size: 24px;
+    color: #333; /* Darker text color for contrast */
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+
